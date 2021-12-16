@@ -39,3 +39,48 @@
 #slider .textslide .flowers{
     color: red;
 }
+
+/* parallax css */
+
+#parallax{
+    background-image: url(../images/h3-background-img.jpg);
+    height: 480px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+      justify-content: center;
+      align-items:center;
+      text-align: center;
+  }
+  #parallax h3{
+      color: white;
+  }
+  #parallax input{
+     width: 50px!important;
+  }
+  
+  
+  #parallax .input-group{
+      width: 450px;
+    height: 50px;
+    
+  }
+  #parallax button{
+     padding: 25px 35px;
+      height: 50px;
+      background-color: #F34F3F;
+      color: white;
+      border: none;
+      text-align: center;
+  }
+  #parallax .form{
+      display: flex;
+      justify-content: center;
+      align-items:center;
+      text-align: center;
+      border-radius: 0;
+  }
+  #parallax button:hover{
+      cursor: pointer;
+  }
