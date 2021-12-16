@@ -84,4 +84,42 @@
   #parallax button:hover{
       cursor: pointer;
   }
-/* parallax end  */
+ /* blog */
+ #blog{
+    background-color: #F8F8F8;
+}
+#blog .card:hover img{
+    transform: scale(1.1);
+}
+#blog .container .row  h4:hover{
+    cursor: pointer;
+}
+#blog .container .row  h4{
+    font-size: 24px;
+    font-family: 'Playfair Display', serif;
+}
+#blog .container .row  h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+}
+#blog .container .row .blogName p{
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    color: #6D6A6A;
+}
+#blog .container .overflow-hidden {
+    overflow: hidden!important;
+    width: 365px;
+}
+
+#blog .container .row .blog-date{
+    position: absolute;
+    background-color: white;
+    font-size: 14px;
+    padding: 5px 19px 7px;
+    margin-left: 11px;
+    margin-top: 9px;
+}
+#blog .container .row .col .card-body p{
+    color: #6D6A6A;
+}
