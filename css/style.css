@@ -39,6 +39,21 @@
 #slider .textslide .flowers{
     color: red;
 }
+/* videotext css */
+.valentine{
+    color: #F34F3F;
+}
+#videotext ul>li>.fas{
+    color: #F34F3F;
+}
+#videotext ul>li{
+    list-style-type: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #6D6A6A;
+}
+#videotext .occasion{
+    color: #6D6A6A;
+}
 
 /* parallax css */
 
