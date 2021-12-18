@@ -39,6 +39,94 @@
 #slider .textslide .flowers{
     color: red;
 }
+/* products-tab css */
+#products-tab h4{
+    
+    font-size: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#products-tab h4:hover{
+    cursor: pointer;
+}
+#products-tab .tab-pane {
+    text-align: center;
+    
+}
+#products-tab a{
+    text-decoration: none;
+ 
+}
+#products-tab .cost{
+    color: rgb(112, 112, 112);
+
+}
+
+.add{
+    display: none;
+    color: rgb(112, 112, 112);
+}
+#products-tab #pills-tabContent .card .sold{
+    position: absolute;
+    background-color: #2B2B2B;
+    font-size: 14px;
+    padding: 5px 17px 5px;
+    margin-left: 11px;
+    margin-top: 9px;
+}
+#products-tab #pills-tabContent .card .sale{
+    position: absolute;
+    background-color: white;
+    font-size: 14px;
+    padding: 5px 17px 5px;
+    margin-left: 11px;
+    margin-top: 9px;
+}
+#products-tab #pills-tabContent .card .sold span{
+    color: white;
+    font-size: 15px;
+}
+#products-tab #pills-tabContent .card .sale span{
+    color: #2B2B2B;
+    font-size: 15px;
+}
+
+#products-tab #pills-tabContent .card{
+    border: none!important;
+    margin-right: 20px;
+
+}
+.card:hover img{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.card:hover .add{
+    display: block;
+}
+.card:hover .cost{
+    display: none;
+}
+.add:hover{
+    color: red;
+}
+
+.pull-right{
+    display: block;
+    padding: 13px 42px;
+    width: 50px!important;
+    height: 50px;
+}
+
+
+/* tab-menu css */
+#products-tab .nav-item button{
+border: none;
+background-color:white;
+color: black;
+}
+#products-tab .nav-item button:hover{
+    color: red;
+}
 /* videotext css */
 .valentine{
     color: #F34F3F;
