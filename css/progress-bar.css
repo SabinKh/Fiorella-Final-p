@@ -1,0 +1,79 @@
+.progressBar {
+	margin-bottom: 26px;
+	margin-bottom: 1.66em;
+	position: relative;
+	
+}
+.progressBar h4 {
+	font-size: 23px;
+	text-transform: none;
+	margin-bottom: 7px;
+	margin-bottom: .33em;
+	color: #2B2B2B;
+    font-family: 'Playfair Display', serif;
+}
+.progressBarcontainer {
+	width: 100%;
+	height: 5px;
+	background: #E1E1E1!important;
+	overflow: hidden;
+	border-radius: 0.3em;
+}
+
+.progressBarValue {
+	height: 5px;
+	float: left;
+	border-radius: 0.3em;
+	background: #F34F3F; 
+
+}
+
+.speech-bubble {
+	font-size: 0.75em;
+	line-height: 2em;
+	position: absolute;
+	top: -0.60em;
+	text-align: center;
+	min-width: 3em;
+	border-radius: 0.3em;
+	color: black;
+	display: none;
+}
+
+.speech-bubble:after {
+	border: 0.5em solid transparent;
+	content: "";
+	margin-left: -0.5em;
+	position: absolute;
+	bottom: -50%;
+	left: 50%;
+}
+.progressBarName h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+}
+.progressBarName{
+width: 100%;
+background-color: #FAFAF9;
+padding: 60px;
+margin-bottom: 20px;
+}
+.html {
+	left: calc(88.5% - 1.5em);
+}
+  
+.css{
+	  left: calc(78.5% - 1.5em);
+}
+
+.javascript{
+	left: calc(58.5% - 1.5em);
+} 
+
+.react{
+	left: calc(48.5% - 1.5em);
+}
+
+.jquery{
+	left: calc(58.5% - 1.5em);
+}
