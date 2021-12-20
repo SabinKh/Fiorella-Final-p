@@ -1,0 +1,23 @@
+.cont .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff !important;
+    background-color: #F34F3F !important;
+}
+
+.cnt .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #F34F3F !important;
+}
+#tabsFiorello .tabsName{
+width: 100%;
+background-color: #FAFAF9;
+padding: 90px;
+margin-bottom: 100px;
+}
+#tabsFiorello .tabsName .row .col h1{
+font-family: 'Playfair Display', serif;
+font-size: 55px;
+}
+#tabsFiorello .cont .tab-content .tab-pane{
+color: #6D6A6A;
+}

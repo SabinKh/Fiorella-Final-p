@@ -1,0 +1,307 @@
+
+#accordions .container .upper-low {
+    padding: 100px 0;
+  }
+  
+  #accordions .container .upper-low .accordion1 .accordion-header .header {
+    padding: 13px 20px 13px 40px;
+    margin: 15px 0 0;
+    border: 1px solid #eee;
+    cursor: pointer;
+    position: relative;
+    -webkit-transition: background 0.2s ease-out;
+    transition: background 0.2s ease-out;
+  }
+  
+  #accordions .container .upper-low .accordion1 .accordion-header .header:hover {
+    background: #f34f3f;
+  }
+  
+  #accordions .container .upper-low .accordion1 .accordion-header .header:hover .sign {
+    color: white;
+  }
+  
+  #accordions .container .upper-low .accordion1 .accordion-header .header:hover .text {
+    color: white;
+  }
+  
+  #accordions .container .upper-low .accordion1 .accordion-header .header .sign {
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    top: 34%;
+    left: 10px;
+    width: 20px;
+    height: 18px;
+    margin: -1px 0 0;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #1b1b1b;
+    -webkit-transition: color 0.2s ease-out;
+    transition: color 0.2s ease-out;
+  }
+  
+  #accordions .container .upper-low .accordion1 .accordion-header .header .text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    line-height: 2em;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color: #1b1b1b;
+    -webkit-transition: color 0.2s ease-out;
+    transition: color 0.2s ease-out;
+  }
+  
+  #accordions .container .upper-low .accordion1 .accordion-header .content {
+    padding: 34px 0 20px;
+    border: none;
+  }
+  
+  #accordions .container .upper-low .accordion1 .accordion-header .content p {
+    margin: 0;
+    color: #6d6a6a;
+    line-height: 1.6em;
+    font-family: "Lora", serif;
+    font-size: 15px;
+  }
+  
+  #accordions .container .upper-low .accordion1 .accordion-header .inactive {
+    display: none;
+  }
+  
+  #accordions .container .upper-low .accordion1 .accordion-header .active-header1 {
+    background: #f34f3f;
+  }
+  
+  #accordions .container .upper-low .accordion1 .accordion-header .active-header1 .sign {
+    color: white;
+  }
+  
+  #accordions .container .upper-low .accordion1 .accordion-header .active-header1 .text {
+    color: white;
+  }
+  
+  #accordions .container .upper-low .accordion2 .accordion-header .header {
+    padding: 13px 20px 13px 40px;
+    margin: 15px 0 0;
+    border: 1px solid #eee;
+    cursor: pointer;
+    position: relative;
+    -webkit-transition: background 0.2s ease-out;
+    transition: background 0.2s ease-out;
+  }
+  
+  #accordions .container .upper-low .accordion2 .accordion-header .header:hover {
+    background: #f34f3f;
+  }
+  
+  #accordions .container .upper-low .accordion2 .accordion-header .header:hover .sign {
+    color: white;
+  }
+  
+  #accordions .container .upper-low .accordion2 .accordion-header .header:hover .text {
+    color: white;
+  }
+  
+  #accordions .container .upper-low .accordion2 .accordion-header .header .sign {
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    top: 34%;
+    left: 10px;
+    width: 20px;
+    height: 18px;
+    margin: -1px 0 0;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #1b1b1b;
+    -webkit-transition: color 0.2s ease-out;
+    transition: color 0.2s ease-out;
+  }
+  
+  #accordions .container .upper-low .accordion2 .accordion-header .header .text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    line-height: 2em;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color: #1b1b1b;
+    -webkit-transition: color 0.2s ease-out;
+    transition: color 0.2s ease-out;
+  }
+  
+  #accordions .container .upper-low .accordion2 .accordion-header .content {
+    padding: 34px 0 20px;
+    border: none;
+  }
+  
+  #accordions .container .upper-low .accordion2 .accordion-header .content p {
+    margin: 0;
+    color: #6d6a6a;
+    line-height: 1.6em;
+    font-family: "Lora", serif;
+    font-size: 15px;
+  }
+  
+  #accordions .container .upper-low .accordion2 .accordion-header .inactive {
+    display: none;
+  }
+  
+  #accordions .container .upper-low .accordion2 .accordion-header .active-header1 {
+    background: #f34f3f;
+  }
+  
+  #accordions .container .upper-low .accordion2 .accordion-header .active-header1 .sign {
+    color: white;
+  }
+  
+  #accordions .container .upper-low .accordion2 .accordion-header .active-header1 .text {
+    color: white;
+  }
+  
+  #accordions .container .lower-row {
+    padding: 100px 0;
+  }
+  
+  #accordions .container .lower-row .accordion3 .accordion-header .header {
+    padding: 13px 20px 13px 40px;
+    margin: 15px 0 0;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  #accordions .container .lower-row .accordion3 .accordion-header .header:hover .sign {
+    color: #f34f3f;
+  }
+  
+  #accordions .container .lower-row .accordion3 .accordion-header .header:hover .text {
+    color: #f34f3f;
+  }
+  
+  #accordions .container .lower-row .accordion3 .accordion-header .header .sign {
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    top: 34%;
+    left: 10px;
+    width: 20px;
+    height: 18px;
+    margin: -1px 0 0;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #1b1b1b;
+    -webkit-transition: color 0.2s ease-out;
+    transition: color 0.2s ease-out;
+  }
+  
+  #accordions .container .lower-row .accordion3 .accordion-header .header .text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    line-height: 2em;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color: #1b1b1b;
+    -webkit-transition: color 0.2s ease-out;
+    transition: color 0.2s ease-out;
+  }
+  
+  #accordions .container .lower-row .accordion3 .accordion-header .content {
+    padding: 34px 0 20px;
+    border: none;
+  }
+  
+  #accordions .container .lower-row .accordion3 .accordion-header .content p {
+    margin: 0;
+    color: #6d6a6a;
+    line-height: 1.6em;
+    font-family: "Lora", serif;
+    font-size: 15px;
+  }
+  
+  #accordions .container .lower-row .accordion3 .accordion-header .inactive {
+    display: none;
+  }
+  
+  #accordions .container .lower-row .accordion3 .accordion-header .active-header2 .sign {
+    color: #f34f3f;
+  }
+  
+  #accordions .container .lower-row .accordion3 .accordion-header .active-header2 .text {
+    color: #f34f3f;
+  }
+  
+  #accordions .container .lower-row .accordion4 .accordion-header .header {
+    padding: 13px 20px 13px 40px;
+    margin: 15px 0 0;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  #accordions .container .lower-row .accordion4 .accordion-header .header:hover .sign {
+    color: #f34f3f;
+  }
+  
+  #accordions .container .lower-row .accordion4 .accordion-header .header:hover .text {
+    color: #f34f3f;
+  }
+  
+  #accordions .container .lower-row .accordion4 .accordion-header .header .sign {
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    top: 34%;
+    left: 10px;
+    width: 20px;
+    height: 18px;
+    margin: -1px 0 0;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #1b1b1b;
+    -webkit-transition: color 0.2s ease-out;
+    transition: color 0.2s ease-out;
+  }
+  
+  #accordions .container .lower-row .accordion4 .accordion-header .header .text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    line-height: 2em;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color: #1b1b1b;
+    -webkit-transition: color 0.2s ease-out;
+    transition: color 0.2s ease-out;
+  }
+  
+  #accordions .container .lower-row .accordion4 .accordion-header .content {
+    padding: 34px 0 20px;
+    border: none;
+  }
+  
+  #accordions .container .lower-row .accordion4 .accordion-header .content p {
+    margin: 0;
+    color: #6d6a6a;
+    line-height: 1.6em;
+    font-family: "Lora", serif;
+    font-size: 15px;
+  }
+  
+  #accordions .container .lower-row .accordion4 .accordion-header .inactive {
+    display: none;
+  }
+  
+  #accordions .container .lower-row .accordion4 .accordion-header .active-header2 .sign {
+    color: #f34f3f;
+  }
+  
+  #accordions .container .lower-row .accordion4 .accordion-header .active-header2 .text {
+    color: #f34f3f;
+  }
+    
+
+
