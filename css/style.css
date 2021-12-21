@@ -231,3 +231,80 @@ color: black;
 #blog .container .row .col .card-body p{
     color: #6D6A6A;
 }
+/* footer css */
+
+footer {
+    background: #fefaf3;
+    padding: 80px 0 30px 0;
+  }
+  
+  footer .container .links .row .link h6 {
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+    line-height: 2em;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+  }
+  
+  footer .container .links .row .link ul {
+    list-style-type: none;
+  }
+  
+  footer .container .links .row .link ul li a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    color: #8b8b8b;
+  }
+  
+  footer .container .links .row .link ul li a:hover {
+    color: #f34f3f;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+  }
+  
+  footer .container .copyright {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  footer .container .copyright .title_copyright span {
+    font-size: 12px;
+    color: #AFAFAF;
+  }
+  
+  footer .container .copyright .title_copyright span a {
+    color: #6D6A6A;
+  }
+  
+  footer .container .copyright .title_copyright span a:hover {
+    color: #f34f3f;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+  }
+  
+  footer .container .copyright .contact_pages a {
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    color: #AFAFAF;
+    font-size: 10px;
+  }
+  
+  footer .container .copyright .contact_pages a:first-child {
+    margin-right: 20px;
+  }
+  
+  footer .container .copyright .contact_pages a:hover {
+    color: #f34f3f;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+  }
+    footer .copyright {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      text-align: center;
+    }
